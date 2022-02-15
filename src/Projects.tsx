@@ -4,11 +4,10 @@ import { Badge, Box, Image, Link, Grid } from '@chakra-ui/react';
 const Projects = () => {
 	const projectIds = ['1GbLlBKRQO8K_zyNGNOGR_hdmQB3cq0jZXXkmm6YdV3s', '1S9Vs6Egaf_kLrESUAIMyrH3DmKtJ-HRA9X7FLQXVVDI'];
 
-	return <Grid>
-
+	return <Grid w='100%' gap='3' templateColumns='repeat(auto-fit, minmax(300px, 1fr))'>
 	<Link href={`https://docs.google.com/presentation/d/${projectIds[0]}/edit?usp=sharing`}>
 		<Box maxW='xs' borderWidth='1px' borderRadius='lg' overflow='hidden'>
-			<Image w='100%' src={`https://lh3.google.com/u/0/d/${projectIds[0]}=w208-h117-iv7`} />
+			<Image w='100%' src={`https://lh3.google.com/u/0/d/${projectIds[0]}`} />
 
 			<Box p='6'>
 				<Box display='flex' alignItems='baseline'>
@@ -31,7 +30,7 @@ const Projects = () => {
 	</Link>
 	<Link href={`https://docs.google.com/presentation/d/${projectIds[1]}/edit?usp=sharing`}>
 		<Box maxW='xs' borderWidth='1px' borderRadius='lg' overflow='hidden'>
-			<Image w='100%' src={`https://lh3.google.com/u/0/d/${projectIds[1]}=w208-h117-iv7`} />
+			<Image w='100%' src={`https://lh3.google.com/u/0/d/${projectIds[1]}`} />
 
 			<Box p='6'>
 				<Box display='flex' alignItems='baseline'>
@@ -52,8 +51,7 @@ const Projects = () => {
 			</Box>
 		</Box>
 	</Link>
-	</Grid>
-		;
+	</Grid>;
 };
 
 export default Projects;
