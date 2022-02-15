@@ -21,7 +21,7 @@ const Projects = () => {
 					<Box p='6'>
 						<Box display='flex' alignItems='baseline'>
 							<Badge borderRadius='full' px='2' colorScheme='orange'>
-								${pClass}
+								{pClass}
 							</Badge>
 						</Box>
 
@@ -32,7 +32,7 @@ const Projects = () => {
 							lineHeight='tight'
 							isTruncated
 						>
-							${pName}
+							{pName}
 						</Box>
 					</Box>
 				</Box>
