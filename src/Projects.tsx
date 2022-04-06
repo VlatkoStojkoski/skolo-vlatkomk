@@ -3,11 +3,16 @@ import { Badge, Box, Image, Link, Grid } from '@chakra-ui/react';
 
 const Projects = () => {
 	const projectIds = [{
-		name: 'Ohridska arhepiskopija',
+		name: 'Franchising',
+		id: '16OVD_tDWHcCvn4eARvFTaPOsWXfVeWRLygre7See8Gc',
+		class: 'English'
+	}, {
+		
+		name: 'Охридска архепископија',
 		id: '1GbLlBKRQO8K_zyNGNOGR_hdmQB3cq0jZXXkmm6YdV3s',
 		class: 'History'
 	}, {
-		name: 'Makedonski proekt',
+		name: '#1 Македонски проект',
 		id: '1S9Vs6Egaf_kLrESUAIMyrH3DmKtJ-HRA9X7FLQXVVDI',
 		class: 'Macedonian'
 	}];
