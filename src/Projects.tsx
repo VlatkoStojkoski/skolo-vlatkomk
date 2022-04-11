@@ -3,6 +3,10 @@ import { Badge, Box, Image, Link, Grid } from '@chakra-ui/react';
 
 const Projects = () => {
 	const projectIds = [{
+		name: 'Cryptocurrency',
+		id: '1CHFaA4HzOBFYt48PW-01kdNtajpdre5oldkqT-FPaEM',
+		class: 'English'
+	}, {
 		name: 'Franchising',
 		id: '16OVD_tDWHcCvn4eARvFTaPOsWXfVeWRLygre7See8Gc',
 		class: 'English'
