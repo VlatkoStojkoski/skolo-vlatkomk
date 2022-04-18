@@ -3,6 +3,10 @@ import { Badge, Box, Image, Link, Grid } from '@chakra-ui/react';
 
 const Projects = () => {
 	const projectIds = [{
+		name: 'Галичка свадба',
+		id: '1d1qFvBBRMwjq3QhbUi4YaxIs2RT4uftp',
+		class: 'Music'
+	}, {
 		name: 'Cryptocurrency',
 		id: '1CHFaA4HzOBFYt48PW-01kdNtajpdre5oldkqT-FPaEM',
 		class: 'English'
