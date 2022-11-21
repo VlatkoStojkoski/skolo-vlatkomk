@@ -31,7 +31,7 @@ const Projects = () => {
 
 	return <Grid w='100%' gap='3' templateColumns='repeat(auto-fit, minmax(300px, 1fr))'>
 		{projectIds.map(({name: pName, id: pId, class: pClass}) => 
-			<Link href={`https://docs.google.com/presentation/d/${pId}/edit?usp=sharing`}>
+			<Link href={`https://lh3.google.com/u/0/d/${pId}=w416-h234-iv5`}>
 				<Box maxW='xs' borderWidth='1px' borderRadius='lg' overflow='hidden'>
 					<Image w='100%' src={`https://lh3.google.com/u/0/d/${pId}`} />
 
